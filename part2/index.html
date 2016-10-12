@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Template</title>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrapper" id="user-profile">
+    </div>
+
+    <script type="text/html" id="test">
+        <ul>
+            <li><img src=<%= image %> alt="user-image"></li>
+            <li><%= firstname %></li>
+            <li><%= lastname %></li>
+            <li><%= birthdate %></li>
+        </ul>
+    </script>
+
+</body>
+</html>
